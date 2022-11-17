@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="hu.bme.aut.android.gaminggoods.feature.menu.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_dealsFragment"
+            app:destination="@id/dealsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dealsFragment"
+        android:name="hu.bme.aut.android.gaminggoods.feature.deals.DealsFragment"
+        android:label="activity_deals"
+        tools:layout="@layout/fragment_deals" >
+        <argument
+            android:name="category"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="title_id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_dealsFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="hu.bme.aut.android.gaminggoods.feature.details.DetailsFragment"
+        android:label="DetailsFragment" >
+        <argument
+            android:name="dealData"
+            app:argType="hu.bme.aut.android.gaminggoods.model.DealData"
+            app:nullable="true" />
+    </fragment>
+</navigation>

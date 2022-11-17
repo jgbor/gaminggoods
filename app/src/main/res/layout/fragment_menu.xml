@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnAll"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/all"/>
+
+                <TextView
+                    style="@style/Menu_Text.LightBackground"
+                    android:text="@string/all"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnPC"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/pc"/>
+
+                <TextView
+                    style="@style/Menu_Text.DarkBackground"
+                    android:text="@string/pc" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+               <ImageButton
+                   android:id="@+id/btnPlayStation4"
+                   style="@style/Menu_Image"
+                   android:src="@drawable/ps4" />
+
+                <TextView
+                    style="@style/Menu_Text.DarkBackground"
+                    android:text="@string/playstation4" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnPlayStation5"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/ps5" />
+
+                <TextView
+                    style="@style/Menu_Text.LightBackground"
+                    android:text="@string/playstation5"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnXboxOne"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/xboxone"/>
+
+                <TextView
+                    style="@style/Menu_Text.LightBackground"
+                    android:text="@string/xboxone"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnXboxSeries"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/xboxseriesx"/>
+
+                <TextView
+                    style="@style/Menu_Text.DarkBackground"
+                    android:text="@string/xboxseries" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnSwitch"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/nintendoswitch"/>
+
+                <TextView
+                    style="@style/Menu_Text.LightBackground"
+                    android:text="@string/nintendoswitch"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnVR"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/vr"/>
+
+                <TextView
+                    style="@style/Menu_Text.DarkBackground"
+                    android:text="@string/vr"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+               <ImageButton
+                    android:id="@+id/btnAndroid"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/android"/>
+
+               <TextView
+                    style="@style/Menu_Text.DarkBackground"
+                    android:text="@string/android"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btnIos"
+                    style="@style/Menu_Image"
+                    android:src="@drawable/ios"/>
+
+                <TextView
+                    style="@style/Menu_Text.DarkBackground"
+                    android:text="@string/ios"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+</ScrollView>

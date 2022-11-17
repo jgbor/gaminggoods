@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deal">Ajánlat: #%d</string>
+    <string name="preview_image_for_the_deal">Kép előnézete</string>
+    <string name="open_in_browser">Gyűjtsd be!</string>
+    <string name="datetext">Lejár: %s</string>
+    <string name="unknown">Nem ismert</string>
+
+    <string name="all">Összes</string>
+    <string name="nothing_found">Jelenleg nem található ajánlat ezekkel a feltételekkel</string>
+    <string name="popularity">Népszerűség</string>
+    <string name="date">Dátum</string>
+    <string name="value">Érték</string>
+    <string name="sort">Rendezés</string>
+    <string name="type">Típus</string>
+    <string name="game">Játék</string>
+    <string name="loot">Játékbeli tárgy</string>
+    <string name="reset">Alaphelyzet</string>
+</resources>

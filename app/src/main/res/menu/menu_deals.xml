@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/sort">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/sortByValue"
+                    android:title="@string/value" />
+                <item
+                    android:id="@+id/sortByDate"
+                    android:title="@string/date" />
+                <item
+                    android:id="@+id/sortByPopularity"
+                    android:title="@string/popularity" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/type">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/type_game"
+                    android:title="@string/game" />
+                <item
+                    android:id="@+id/type_loot"
+                    android:title="@string/loot" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/reset"
+        android:title="@string/reset"/>
+</menu>

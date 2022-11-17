@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name" translatable="false">Gaming Goods</string>
+    <string name="deal">Deal: #%d</string>
+    <string name="preview_image_for_the_deal">Preview Image for the deal</string>
+    <string name="open_in_browser">Get content</string>
+    <string name="platfromtext" translatable="false">Platform: %s</string>
+    <string name="datetext">Ends: %s</string>
+    <string name="unknown">Unknown</string>
+
+
+    <string name="all">All</string>
+    <string name="pc" translatable="false">PC</string>
+    <string name="nintendoswitch" translatable="false">Switch</string>
+    <string name="playstation4" translatable="false">PS4</string>
+    <string name="playstation5" translatable="false">PS5</string>
+    <string name="xboxone" translatable="false">Xbox One</string>
+    <string name="xboxseries" translatable="false">Xbox Series X</string>
+    <string name="android" translatable="false">Android</string>
+    <string name="ios" translatable="false">iOS</string>
+    <string name="vr" translatable="false">VR</string>
+    <string name="nothing_found">There are no deals currently in this category</string>
+    <string name="popularity">Popularity</string>
+    <string name="date">Date</string>
+    <string name="value">Value</string>
+    <string name="sort">Sort</string>
+    <string name="type">Type</string>
+    <string name="game">Game</string>
+    <string name="loot">Loot</string>
+    <string name="reset">Reset</string>
+</resources>
