@@ -2,14 +2,10 @@ Copied from the private classroom repo
 
 # Házi feladat specifikáció
 
-Információk [itt](https://viauac00.github.io/laborok/hf)
-
 ## Mobil- és webes szoftverek
 ### 2022.10.21.
 ### GamingGoods
-### Jeges Gábor - (JCIRJL)
-### jegesgabor2000@gmail.com 
-### Laborvezető: Kapus Ádám
+### Jeges Gábor
 
 ## Bemutatás
 
