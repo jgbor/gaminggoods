@@ -2,6 +2,7 @@ package hu.bme.aut.android.gaminggoods.ui.common
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.rounded.ArrowBack
 import androidx.compose.material.icons.rounded.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -21,7 +22,7 @@ fun GamingGoodsAppBar(
     title: String? = null,
     onNavigate: () -> Unit,
     navigationIcon: @Composable () -> Unit = {
-            Icon(imageVector = Icons.Rounded.ArrowBack, contentDescription = null)
+            Icon(imageVector = Icons.AutoMirrored.Rounded.ArrowBack, contentDescription = null)
         },
     actions: @Composable RowScope.() -> Unit = {},
     backgroundColor: Color = MaterialTheme.colorScheme.primary,

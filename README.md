@@ -1,12 +1,6 @@
-# Házi feladat specifikáció
+# Gaming Goods Compose version #
 
-Információk [itt](https://viauav21.github.io/laborok/hf)
-
-## Androidalapú szoftverfejlesztés
-### 2022/23 - 2. félév
-### Jeges Gábor - (JCIRJL)
-### jegesgabor2000@gmail.com 
-### Laborvezető: Pomázi Krisztián
+There is an older, View based version of this app [here](https://github.com/jgbor/gaminggoods/tree/view-based-app).
 
 ## Bemutatás
 
