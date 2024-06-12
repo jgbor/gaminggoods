@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preview_image_for_the_deal">Kép előnézete</string>
+    <string name="open_in_browser">Gyűjtsd be!</string>
+    <string name="date_text">Lejár: %1$s</string>
+    <string name="unknown">Nem ismert</string>
+
+    <string name="all">Összes</string>
+    <string name="nothing_found">Jelenleg nem található ajánlat ezekkel a feltételekkel</string>
+    <string name="popularity">Népszerűség szerint</string>
+    <string name="date">Dátum szerint</string>
+    <string name="value">Érték szerint</string>
+    <string name="game">Játék</string>
+    <string name="loot">Játékbeli tárgy</string>
+    <string name="error_message">Hiba történt</string>
+    <string name="details_error">Hiba történt az ajánlat betöltése közben, kérlek, lépj vissza az előző oldalra!</string>
+    <string name="share">Ajánlat megosztása</string>
+    <string name="notification_message">Nézd meg a jelenlegi ajánlatokat!</string>
+    <string name="notification_channel_name">Emlékeztető</string>
+    <string name="have_a_look_at_these">Ezt figyeld!</string>
+    <string name="button_confirm">Persze!</string>
+    <string name="button_decline">Nem</string>
+    <string name="notification_permission_dialog_text">Szeretnél heti értesítőt kapni az ajánlatokról?</string>
+    <string name="notifications_switch">Értesítések kapcsoló</string>
+    <string name="button_deals">Nézzük!</string>
+    <string name="network_error">Hálózati hiba</string>
+    <string name="no_internet">Nincs internekapcsolat</string>
+    <string name="deals">Ajánlatok</string>
+    <string name="platforms">Platformok</string>
+    <string name="content_type">Típus</string>
+    <string name="sort_by">Rendezés</string>
+    <string name="worth">%1$d ajánlat, %2$s dollár értékben</string>
+</resources>
